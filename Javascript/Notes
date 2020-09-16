@@ -1,0 +1,30 @@
+Array: It is also a varible which can used to store more than one value.
+- Array in JS is not a typesafe.
+- Array will stores the data in index based, and always index will srats from "Zero".
+- To find the length of an array we have "length".
+- Array class in JS which is having many methods to manuplate the data.
+
+JSON:
+- javascript Object Notation, it is an another way to store the data in javascript.
+- JSON will stores the dtaa in key and value pair.
+- Synatx: {key:value...};
+- Example: {Eno:101,Ename:'Srikanth',Salary:12345};
+
+Typescript:
+Limitations of Javascript:
+- Javascript is not a typesafe.
+- For large applications we can't handle with Javascript.
+- Interpreted language.
+- Debugging is messy, but not much difficult.
+
+What is Typescript?
+- A typescript is a superset of javascript.
+- It is not a replacement for Javascript and also it is not adding any new featrues to the existing javascript.
+- Typescript is having daattypes to define the members
+- Typescript = Javascript + Datatypes.
+- The compiled version of typescript is javascript.
+
+
+Typescript => Compilation => Javascript (We can to application).
+
+

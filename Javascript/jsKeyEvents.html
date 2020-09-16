@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Examples</title>
+</head>
+<body>
+    <h1>Example with Keyborad Events in Javascript</h1>
+    <div>
+        <label for="txtData">Enter any data: </label>
+        <input type="text" onkeypress="F1()"  name="T1" id="txtData">
+        <br>
+        <h4 id="obj1"></h4>
+        <h4 id="obj2"></h4>
+    </div>
+    <script>
+        function F1(){
+            //console.log('key press');
+            var data = document.getElementById('txtData');
+            var a = document.getElementById('obj1');
+            var b = document.getElementById('obj2');
+            a.innerText = data.value.toLowerCase();
+            b.innerText = data.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>

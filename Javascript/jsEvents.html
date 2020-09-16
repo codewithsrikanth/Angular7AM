@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Examples</title>
+        <style>
+            div{
+                height: 250px;
+                width:250px;
+                border: 2px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Example with Mouse Events</h1>
+        <div id="div1" onmouseover="F1()" onmouseout="F2()">
+            <h3>Example with Mouse Events</h3>
+        </div>
+        <script>
+            function F1(){
+                var obj = document.getElementById('div1');
+                obj.style.backgroundColor = 'lightblue';
+                obj.style.color='green';
+            }
+            function F2(){
+               var obj = document.getElementById('div1');
+               obj.style.backgroundColor = 'pink';
+                obj.style.color='yellow';
+            }
+        </script>
+    </body>
+</html>

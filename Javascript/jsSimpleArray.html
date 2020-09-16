@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Examples</title>
+    <script>
+        function getData(){
+            var courses = ['HTML5','CSS3','Bootstrap','Javascript','Typescript','Angular'];
+
+            var list = document.getElementById('list1');
+            var str="";
+            for(var i=0;i<courses.length;i++){
+                str =str + "<li>"+courses[i]+"</li>";
+            }
+            list.innerHTML =str;
+        }
+    </script>
+</head>
+<body>
+    <h1>Example with Arrays</h1>
+    <button type="button" onclick="getData()" >GetData</button>
+    <ul id="list1"></ul>
+</body>
+</html>

@@ -1,0 +1,183 @@
+https://github.com/srikanth-code/Typescript.git
+
+Pre-requsite: 
+Javascript Basics and OOPS
+
+- HTML and CSS can be used to implement static web pages.
+- Javascript is used to add the dynemic functionality.
+
+Limitations of Javascript:
+- It is not a typesafe.
+- It is a interpreter based language, so that if we are not following proper syntax will get exceptions not the errors.
+- Debugging is a bit difficult.
+- In Javascript we can have OOPS but implementation is difficult.
+
+Type Script: 
+- It is not a replacement of Javascript and it is not adding any new features to the javscript.
+- Typescript = Javascript + Datatypes (Superset of javascript).
+
+Advantages:
+- It is a typesafe scripting langauge.
+- It is a compiler based language (Compilation Errors).
+- Once if the type script is compiled it generates Javascript only.
+- It supports OOPS similar to server side programming experience.
+- There are morethan 40+ langauges which are superset of Javascript
+	- PureScript
+	- CoffieScript
+	- TypeScript
+	- LiveScript etc.
+- TS was introduced by Microsoft and author is "Andrew Hezelsibeg".
+
+Features of Typescript:
+- Datatypes
+- var and let and const.
+- for..in and for..of
+- Classes and Objects
+- OOPS
+- Abstract classes and Interfaces
+- Modules etc.
+
+Software Requirements:
+	- IDE(Visual Studio Code).
+	- Node.Js
+	- Install the Typescript
+----------------------------------------------------------------------------------------
+Datatypes in TS:
+- A datatype which can be used to specify the type of the data that the variable can have.
+- To create a variable in TS we use "var/let/const".
+Syntax:  var <variableName>: <datatype> = value;
+Example: var x:number = 10;
+
+Normal Datatypes:
+	- number - Used to store numerical value.
+	- string - single charecter ('')/ Multiple charecters ("")
+	- boolean - eigther we can have true/false
+
+Complex Datatypes:
+	- Arrays - We can have similar type of values.
+	- Tuples - It is used to store the values of different types.
+	- Enums - Used to store the named constants.
+
+Function: 
+- It can be used to execute the logic.
+- It is reusable component which can be executed again and again when we call.
+
+Creating First TS file:
+> Open any code editor and write the TS code.
+> Save the file with an extension i.e. <filename>.ts
+> Open the location through the command prompt and write command like
+	> tsc <filename>.ts [It will generate JS file].
+> To execute it we can attach that to a HTML file using script tag.
+
+Difference between var and let keyword?
+- var can be used as function scope member, once if it used in block scope and modified that would be impacted.
+- let can be used as a block scope.
+- Once we define let in a scope we can't redefine it, but var can be defined any number of times
+----------------------------------------------------------------------------------------
+Complex Types: We can store more than a value into the variable.
+- Array:An array is  a variable which can be used to store more values into single variable. In TS Arrays are type safe.
+	let AR:Array<number> = [45,56,67,78];
+	let AR:string[] = ["Java","TS","C#.Net"];
+- Tuple: It is also a varible which can store multiple values of different types
+	let DOB:[number,string,number];
+	DOB = [22,"Jul",1989];
+- Enums: It is used to store named constants
+	enum Result{Pass, Fail, Distinct}
+	let res:Result;
+	res = Result.Pass;
+
+
+Control Structures:
+	- Conditional Statements
+		- Simple If
+		- If else
+		- If else Ladder
+		- Switch case
+	- Loops
+		- for 
+		- While
+		- do while
+		- for..in
+		- for..of
+
+for..in:
+for(var i in AR)
+{
+    console.log(AR[i]);	//Index
+}
+
+for..of:
+for(let x in AR)
+{
+   console.log(x);		//value
+}
+
+Class: It is a collection of similar items. And to create a class we use "class" keyword. Class is a logical representation of data.
+
+Constructor: It is a special method which will be invoked automatically when an object to the class is created.The purpose is used to intilize the fileds. We can have only one constructor in TS.
+- "this" is a keyword which can be used to get members of class.
+- we don't have overloading in JS, so that we don't have it in TS.
+
+Object: 
+- It is an instance of class. we can create an object like
+	var Obj:Employee = new Employee();
+
+----------------------------------------------------------------------------------------
+Inheritence:
+- Aquiring the properties of one class into another.
+- To work with inheritence we "extends".
+- We have different types inheritecne like
+	- Single
+	- Multilevel
+	- Multiple
+	- Heiarichal
+	- Hybrid
+- Access Modifier is used to provide  the accessibility of a class and it's member.
+	- private: Can be access only with in the class
+	- public (Default): Can be access anywhere
+	- protected: Caan be accessible in derived class
+
+Abstarct Classes:
+- A class which contains one or more abstract methods.
+- Abstract function will have only declaration and implementation in derived class.
+- To create an abstarct class/fucntion we use "abstract".
+
+Interface: 
+- Interface is a contract between itself and it's derived class, it provides abstract members and derived class must provide the implementations.
+
+Application level 	=> Interfaces
+Module Level	=> Abstract Classes
+----------------------------------------------------------------------------------------
+Modules/Namespaces:
+- Used to provide accessbility for the TS class from one file to another file or from one module to another modules etc.
+- To do that we use export and import keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

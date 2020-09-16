@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Examples</title>
+    <script>
+        function getData(){
+            var emp = {Eno:101,Ename:'Srikanth',Salary:12345};
+            var obj = document.getElementById('div1');
+            var s = "";
+            s += "Eno is: "+emp.Eno+"<br/>";
+            s += "Ename is: "+emp.Ename+"<br/>";
+            s += "Salary is: "+emp.Salary+"<br/>";
+            obj.innerHTML = s;
+        }
+    </script>
+</head>
+<body>
+    <h1>Example with JSON</h1>
+    <div id="div1">
+
+    </div>
+    <button type="button" onclick="getData()">GetData</button>
+</body>
+</html>

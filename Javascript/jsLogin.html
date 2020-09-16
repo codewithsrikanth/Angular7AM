@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Examples</title>
+    </head>
+    <body>
+        <h1>Login Form</h1>
+        <div>
+            <label for="txtUname">Enter Username: </label>
+            <input type="text" id="txtUname"/>
+            <br>
+            <label for="txtPwd">Enter Password: </label>
+            <input type="password" id="txtPwd">
+            <br>
+            <input type="button" onclick="Login()" id="b1" value="Login"/>
+        </div>
+        <h4 id="result"></h4>
+
+        <script>
+            function Login(){
+                var Uname = document.getElementById('txtUname').value;
+                var Pwd = document.getElementById('txtPwd').value;
+                var result = document.getElementById('result');
+
+                if(Uname=='admin' && Pwd=='admin'){
+                    //result.innerText = "<u>Login Success<u>";
+                    result.innerHTML = "<i>Login Success</i>";
+                    result.style.color="green";
+                }
+                else{
+                    //result.innerText = "<u>Login Failed<u>";
+                    result.innerHTML = "<u>Login Failed</u>";
+                    result.style.color = 'Red';
+                }
+            }
+        </script>
+    </body>
+</html>
