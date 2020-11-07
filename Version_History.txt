@@ -1,0 +1,93 @@
+Angular Versions:
+
+   Angular verison		Relesed Year
+- Angular JS 1.X		2010
+- Angular 2		2016
+- Angular 4		2017
+- Angular 5		November 2017
+- Angular 6		March 2018
+- Angular 7		October 2018
+- Angular 8		May 2019
+- Angular 9		Feb 2020
+- Angular 10		Jun 2020
+
+Angular JS 1.X:
+- It is completly developed based on MVC and MVVM architecture.
+- Latest version is 1.8.X
+- It is complelty developed by using plain Javascript.
+- It is a library not a framework so that integration can be done by using <script>
+- We can create single page application by using "Routing" machanisam
+- "Digestive Cycle"  which will detect all the changes and reloads the entire application.
+- It is not mobile friendly.
+- Features Routing, Form Validations, Depdency Injuction, Animations, DOM manipulations etc.
+
+Angular2:
+- It is complete rewrite of Angular JS
+- SPA by using Routing machanism
+- Developed based on Mobile and Web
+- We can write code by using different langauges like ES5, ES6, Dart, Typescript.
+- It is a componenet based architecture so that it is very easy to build and reuse the interfaces.
+- Performence of Angular application is 5X faster than Angular JS.
+
+Angular3:
+- Angular2 is completly a single repository.
+- Beacuse of version mismatch with routing Angular team skipped Angular3 versiona dn relesed directly Angular4.
+
+Angular4: 
+- It reduces the Build file size upto 60%
+- @angular/animations
+- It provides faster compilation using JIT compiler
+- Email validator
+- *ngIf then else
+
+Angular5:
+- HTTPClient API was introduces in Angular5 which is used to simplify the HTTP library for Angular applications.
+- Number, Currency, Date pipe multiple changes are happens
+- Build files sizes.
+- Should support with Typescript 2.3 and above versions.
+- Route Guards
+
+Angular6:
+- New command to update version "ng update" and "ng add'
+- Angular meterial library.
+- use of RxJS
+- Vallidation objects.
+
+Angular7:
+- CLI version 7.0.2 and also Angular meterial is updated
+- Build files sizes.
+- AOT compiler
+- Lazy loading features makes application more faster
+
+Angular8:
+- Typescript 3.4
+- Speed and performence by reducing build file size.
+- Modularity improved
+- ng version compability is verified.
+
+Angular9 & 10:
+- Default integration of AOT compiler.
+- Bundling is happen for the Javascript with less size so the number of HTTP requests are reduced.
+- AOT takecare of minification as well.
+- Performence and minor changes are happend.
+
+Angular Vs React JS:
+- Angular is a framework and React JS is a library.
+- Angular can be used to perform anything, React JS is a UI library.
+- Both support declarative style programming which means will convert HTML into Javascirpt whcih improves performence.
+- Angular is not supported for Virtual DOM, but react is having.
+- In React JS we use "Redux, Babel, CLI" and in Angular "NgRX, AOT and Angular CLI".
+- Both are open source.
+- Learing and implementation wize Angular is good.
+- Angular can implmented by using different languages but React can written in Javascript now it support typescript.
+- Angular is not good for backward compatability, but react is having good understanding.
+- In most US based projects "React JS" is used, in other projects we use mostly "Angular".
+
+
+
+
+
+
+
+
+
